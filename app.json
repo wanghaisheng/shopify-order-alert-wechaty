@@ -52,16 +52,5 @@
       "description": "Skip pruning: https://devcenter.heroku.com/articles/nodejs-support#skip-pruning",
       "value": "false"
     }
-  },
-  "engines": {
-    "node": "10"
-  },
-  "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
-    },
-    {
-      "url": "heroku/nodejs"
-    }
-  ]
+  }
 }
